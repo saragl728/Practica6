@@ -15,4 +15,51 @@
         android:scaleType="centerCrop"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botonEstrella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#FF7788"
+        android:tint="#CABACA"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@id/imagenAndroid"
+        app:layout_constraintBottom_toBottomOf="@id/imagenAndroid"
+        app:scrCompat="@drawable.ic_star"
+        android:contentDescription="botonEstrella"/>
+
+    <ImageView
+        android:id="@+id/imagenTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/botonEstrella"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/telefonoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="615123753"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toTopOf="@id/imagenTelefono"
+        app:layout_constraintTop_toBottomOf="@id/botonEstrella"
+        app:layout_constraintLeft_toRightOf="@id/imagenTelefono"/>
+
+    <TextView
+        android:id="@+id/movilA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Móvil"
+
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/telefonoA"
+        app:layout_constraintLeft_toLeftOf="@id/telefonoA"
+/>
 </androidx.constraintlayout.widget.ConstraintLayout>
