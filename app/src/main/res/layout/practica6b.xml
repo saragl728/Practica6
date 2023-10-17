@@ -74,4 +74,40 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+    <TextView
+        android:id="@+id/textoEnvioDinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND MONEY"
+        app:layout_constraintTop_toBottomOf="@id/imagenDolar"
+        app:layout_constraintRight_toLeftOf="@id/vista1"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/textoPedirDinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REQUEST MONEY"
+        app:layout_constraintTop_toBottomOf="@id/imagenDolar2"
+        app:layout_constraintLeft_toRightOf="@id/vista1"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textoEscanear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN TO PAY"
+        app:layout_constraintTop_toBottomOf="@id/imagenqr"
+        app:layout_constraintRight_toLeftOf="@id/vista1"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/textoMirarTra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REVIEW YOUR TRANSACTIONS"
+        app:layout_constraintTop_toBottomOf="@id/imagenTransac"
+        app:layout_constraintLeft_toRightOf="@id/vista1"
+        app:layout_constraintRight_toRightOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
