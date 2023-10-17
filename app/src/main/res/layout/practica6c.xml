@@ -74,7 +74,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@id/bAlquilar"
-        app:layout_constraintLeft_toLeftOf="parent"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="Reproducir"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bFamilia"
@@ -85,7 +86,8 @@
         app:srcCompat="@drawable/ic_family"
         app:layout_constraintTop_toTopOf="@id/bPlay"
         app:layout_constraintLeft_toRightOf="@id/bPlay"
-        app:layout_constraintRight_toLeftOf="@id/bRTomat"/>
+        app:layout_constraintRight_toLeftOf="@id/bRTomat"
+        android:contentDescription="Grupo"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bRTomat"
@@ -96,7 +98,8 @@
         app:srcCompat="@drawable/tomato"
         app:layout_constraintTop_toTopOf="@id/bPlay"
         app:layout_constraintLeft_toRightOf="@id/bFamilia"
-        app:layout_constraintRight_toLeftOf="@id/BRectangulo" />
+        app:layout_constraintRight_toLeftOf="@id/BRectangulo"
+        android:contentDescription="Opiniones"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/BRectangulo"
@@ -107,7 +110,8 @@
         android:layout_marginRight="10dp"
         app:srcCompat="@drawable/ic_email"
         app:layout_constraintTop_toTopOf="@id/bPlay"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:contentDescription="Descripción en progreso"/>
 
     <View
         android:id="@+id/divisor"
