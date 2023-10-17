@@ -99,7 +99,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:backgroundTint="#FFFF99"
         app:srcCompat="@drawable/tomato"
+        app:layout_constraintTop_toTopOf="@id/bPlay"
+        app:layout_constraintLeft_toRightOf="@id/bFamilia"
+        app:layout_constraintRight_toLeftOf="@id/BRectangulo" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/BRectangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#11FF00"
+        app:srcCompat="@drawable/ic_email"
         app:layout_constraintTop_toTopOf="@id/bPlay"
         app:layout_constraintRight_toRightOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
